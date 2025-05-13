@@ -22,6 +22,8 @@ Estou aprendendo a programar em Full-Stack
   <img align="center" alt="Vinicius-css" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"/>
   <img align="center" alt="Vinicius-python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"/>
   <img align="center" alt="Vinicius-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+   <img align="center" alt="Vinicius-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+
   
 </div>
 
