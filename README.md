@@ -1,8 +1,7 @@
 # Olá 😃
 
-Eu me chamo Vinícius de Paula Santos
-
-Estou aprendendo a programar em Full-Stack
+Sou Vinícius,
+Estudante de ADS focado em desenvolvimento Backend com Java e Spring Boot. Transformando lógica de negócio em código eficiente.
 
 <div>
    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ViniciuPSantos&show_icons=true&theme=tokyonight"/>
@@ -11,18 +10,17 @@ Estou aprendendo a programar em Full-Stack
 
 ### Minhas Redes Sociais 🤠
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/depaula.vini/)
+[![Linkedin](https://img.shields.io/badge/Linkedin-1074E0?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vinícius-de-paula-santos-dev/)
 
 
 ### Linguagens que eu uso / Estou aprendendo 🖊️
 
 <div>
   
-  <img align="center" alt="Vinicius-html" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"/>
-  <img align="center" alt="Vinicius-css" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"/>
-  <img align="center" alt="Vinicius-python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"/>
-  <img align="center" alt="Vinicius-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
-   <img align="center" alt="Vinicius-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+  <img align="center" alt="Vinicius-java" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg"/>
+  <img align="center" alt="Vinicius-spring" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg"/>
+  <img align="center" alt="Vinicius-postgresql" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original-wordmark.svg"/>
+  <img align="center" alt="Vinicius-React" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg"/>
 
   
 </div>
