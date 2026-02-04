@@ -3,11 +3,6 @@
 Sou Vinícius,
 Estudante de ADS focado em desenvolvimento Backend com Java e Spring Boot. Transformando lógica de negócio em código eficiente.
 
-<div>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ViniciuPSantos&show_icons=true&theme=tokyonight"/>
- <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniciuPSantos&layout=compact&theme=tokyonight"/>
-</div>
-
 ### Minhas Redes Sociais 🤠
 
 [![Linkedin](https://img.shields.io/badge/Linkedin-1074E0?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/vinícius-de-paula-santos-dev/)
