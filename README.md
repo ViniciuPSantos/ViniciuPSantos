@@ -25,8 +25,8 @@
 ### 📊 Estatísticas
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ViniciuPSantos&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniciuPSantos&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+  <img height="165" src="https://github-readme-stats-nu-liard.vercel.app/api?username=ViniciuPSantos&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats-nu-liard.vercel.app/api/top-langs/?username=ViniciuPSantos&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 </p>
 
 ---
