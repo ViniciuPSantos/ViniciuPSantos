@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="340" viewBox="0 0 840 340" role="img" aria-labelledby="title desc">
+  <title id="title">Status do jogador</title>
+  <desc id="desc">Vinícius de Paula Santos, 20 anos, desenvolvedor backend. Jovem Aprendiz na XP Inc., área de renda variável. São Paulo. Cursando ADS na São Judas até 2028. Habilidades: Java e Spring Boot, C# e .NET, PostgreSQL, MySQL e MongoDB, Docker, nginx e Coolify, Dynatrace e Grafana, Python. Em treinamento: React e TypeScript.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050913"/>
+      <stop offset="1" stop-color="#0B1633"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#4DA3FF" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace}
+    .sans{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+    .label{font-size:12px;letter-spacing:2px;fill:#7FB8FF}
+    .value{font-size:15px;fill:#EAF4FF}
+    .tag{font-size:11px;letter-spacing:1.5px;fill:#B07CFF}
+    .frame{animation:pulse 3.2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{stroke-opacity:.7}50%{stroke-opacity:1}}
+    @media (prefers-reduced-motion:reduce){.frame{animation:none}}
+  </style>
+
+  <rect x="10" y="10" width="820" height="320" rx="6" fill="url(#bg)"/>
+  <rect x="10" y="10" width="820" height="320" rx="6" fill="url(#grid)"/>
+  <rect class="frame" x="10" y="10" width="820" height="320" rx="6" fill="none" stroke="#4DA3FF" stroke-width="1.5" filter="url(#glow)"/>
+  <g fill="none" stroke="#9CD0FF" stroke-width="3" stroke-linecap="square">
+    <path d="M4 30V4H30"/><path d="M810 4H836V30"/><path d="M4 310V336H30"/><path d="M810 336H836V310"/>
+  </g>
+
+  <rect x="340" y="26" width="160" height="32" rx="3" fill="#0B1A3A" stroke="#4DA3FF" stroke-opacity=".6"/>
+  <text x="420" y="47" text-anchor="middle" class="mono" font-size="14" font-weight="700" letter-spacing="6" fill="#EAF4FF">STATUS</text>
+
+  <g>
+    <text x="40" y="100" class="mono label">NOME</text>
+    <text x="170" y="100" class="sans value">Vinícius de Paula Santos</text>
+    <text x="40" y="132" class="mono label">NÍVEL</text>
+    <text x="170" y="133" class="sans" font-size="20" font-weight="700" fill="#B07CFF">20</text>
+    <text x="40" y="164" class="mono label">CLASSE</text>
+    <text x="170" y="164" class="sans value">Desenvolvedor Backend</text>
+    <text x="40" y="196" class="mono label">TÍTULO</text>
+    <text x="170" y="196" class="sans value">Jovem Aprendiz</text>
+    <text x="40" y="228" class="mono label">GUILDA</text>
+    <text x="170" y="228" class="sans value">XP Inc. · Renda Variável</text>
+    <text x="40" y="260" class="mono label">REGIÃO</text>
+    <text x="170" y="260" class="sans value">São Paulo, BR</text>
+    <text x="40" y="292" class="mono label">FORMAÇÃO</text>
+    <text x="170" y="292" class="sans value">ADS · São Judas (até 2028)</text>
+  </g>
+
+  <line x1="440" y1="84" x2="440" y2="300" stroke="#4DA3FF" stroke-opacity=".3"/>
+
+  <g>
+    <text x="470" y="100" class="mono label">HABILIDADES</text>
+    <text x="470" y="132" class="mono tag">PRINCIPAL</text>
+    <text x="580" y="132" class="sans value">Java · Spring Boot</text>
+    <text x="470" y="160" class="mono tag">PRINCIPAL</text>
+    <text x="580" y="160" class="sans value">C# · .NET</text>
+    <text x="470" y="188" class="mono tag">DADOS</text>
+    <text x="580" y="188" class="sans value">PostgreSQL · MySQL · MongoDB</text>
+    <text x="470" y="216" class="mono tag">INFRA</text>
+    <text x="580" y="216" class="sans value">Docker · nginx · Coolify</text>
+    <text x="470" y="244" class="mono tag">OBSERV.</text>
+    <text x="580" y="244" class="sans value">Dynatrace · Grafana</text>
+    <text x="470" y="272" class="mono tag">AUTOMAÇÃO</text>
+    <text x="580" y="272" class="sans value">Python</text>
+    <text x="470" y="300" class="mono tag" fill-opacity=".75">TREINANDO</text>
+    <text x="580" y="300" class="sans value" fill-opacity=".75">React · TypeScript</text>
+  </g>
+</svg>

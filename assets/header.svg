@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="210" viewBox="0 0 840 210" role="img" aria-labelledby="title desc">
+  <title id="title">Vinícius de Paula Santos</title>
+  <desc id="desc">Desenvolvedor backend: Java, Spring Boot, C# e .NET.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050913"/>
+      <stop offset="1" stop-color="#0B1633"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4DA3FF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#4DA3FF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#4DA3FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#4DA3FF" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textglow" x="-5%" y="-40%" width="110%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feFlood flood-color="#4DA3FF" flood-opacity=".55"/>
+      <feComposite in2="b" operator="in" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="10" y="10" width="820" height="190" rx="6"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace}
+    .sans{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+    .frame{animation:pulse 3.2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{stroke-opacity:.7}50%{stroke-opacity:1}}
+    .fade{opacity:0;animation:in .8s ease-out forwards}
+    .d1{animation-delay:.2s}.d2{animation-delay:.8s}.d3{animation-delay:1.4s}
+    @keyframes in{from{opacity:0}to{opacity:1}}
+    .cursor{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .scan{animation:scan 5s linear infinite}
+    @keyframes scan{from{transform:translateY(-80px)}to{transform:translateY(230px)}}
+    @media (prefers-reduced-motion:reduce){.frame,.cursor,.scan{animation:none}.fade{animation:none;opacity:1}}
+  </style>
+
+  <rect x="10" y="10" width="820" height="190" rx="6" fill="url(#bg)"/>
+  <g clip-path="url(#clip)">
+    <rect x="10" y="10" width="820" height="190" fill="url(#grid)"/>
+    <rect class="scan" x="10" y="0" width="820" height="70" fill="url(#scan)"/>
+  </g>
+  <rect class="frame" x="10" y="10" width="820" height="190" rx="6" fill="none" stroke="#4DA3FF" stroke-width="1.5" filter="url(#glow)"/>
+  <g fill="none" stroke="#9CD0FF" stroke-width="3" stroke-linecap="square">
+    <path d="M4 30V4H30"/><path d="M810 4H836V30"/><path d="M4 180V206H30"/><path d="M810 206H836V180"/>
+  </g>
+
+  <g class="fade d1">
+    <circle cx="46" cy="44" r="12" fill="none" stroke="#9CD0FF" stroke-width="1.5"/>
+    <text x="46" y="49.5" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#9CD0FF">!</text>
+    <text x="68" y="49" class="mono" font-size="13" letter-spacing="3" fill="#9CD0FF">NOTIFICAÇÃO</text>
+    <line x1="30" y1="70" x2="810" y2="70" stroke="#4DA3FF" stroke-opacity=".35"/>
+    <text x="34" y="100" class="mono" font-size="14" fill="#7FB8FF">&gt; Um novo jogador entrou no sistema.<tspan class="cursor" fill="#B07CFF">▌</tspan></text>
+  </g>
+  <g class="fade d2">
+    <text x="32" y="150" class="sans" font-size="40" font-weight="700" letter-spacing="2" fill="#EAF4FF" filter="url(#textglow)">VINÍCIUS DE PAULA SANTOS</text>
+  </g>
+  <g class="fade d3">
+    <text x="34" y="182" class="mono" font-size="14" fill="#9DB7DA">Classe: <tspan fill="#B07CFF">Desenvolvedor Backend</tspan>  ·  Java · Spring Boot · C# / .NET</text>
+  </g>
+</svg>

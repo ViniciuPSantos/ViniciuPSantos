@@ -1,37 +1,28 @@
-<h1 align="center">Olá, eu sou o Vinícius 👋</h1>
+<div align="center">
 
-<p align="center">
-  Desenvolvedor <b>Backend</b> focado em <b>Java</b> e <b>Spring Boot</b>.<br>
-  Estudante de Análise e Desenvolvimento de Sistemas, transformando lógica de negócio em código eficiente e escalável.
-</p>
+<a href="https://viniciusps.tech">
+  <img src="assets/header.svg" alt="Vinícius de Paula Santos, desenvolvedor backend: Java, Spring Boot, C# e .NET" width="100%">
+</a>
 
----
+Desenvolvedor backend em São Paulo. Java e Spring Boot nos meus projetos, C# e .NET na XP Inc.
 
-### 🛠️ Tecnologias que domino
+[![Portfólio](https://img.shields.io/badge/PORTF%C3%93LIO-viniciusps.tech-B07CFF?style=for-the-badge&labelColor=0B1633)](https://viniciusps.tech)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-vinicius--de--paula--santos--dev-4DA3FF?style=for-the-badge&labelColor=0B1633&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-de-paula-santos-dev)
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+</div>
 
-### 🌱 Explorando
+<br>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+<img src="assets/player.svg" alt="Status: Vinícius de Paula Santos, nível 20, desenvolvedor backend, Jovem Aprendiz na XP Inc. (renda variável), São Paulo, ADS na São Judas até 2028. Habilidades: Java, Spring Boot, C#, .NET, PostgreSQL, MySQL, MongoDB, Docker, nginx, Coolify, Dynatrace, Grafana, Python. Em treinamento: React e TypeScript." width="100%">
 
----
+<a href="https://viniciusps.tech">
+  <img src="assets/quests.svg" alt="Missões: Fluxen (em andamento), Telegram Assistant (em andamento), viniciusps.tech (concluída), ADS na São Judas (em andamento)." width="100%">
+</a>
 
-### 📊 Estatísticas
+<img src="assets/generated/status.svg" alt="Estatísticas do GitHub atualizadas diariamente" width="100%">
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats-nu-liard.vercel.app/api?username=ViniciuPSantos&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats-nu-liard.vercel.app/api/top-langs/?username=ViniciuPSantos&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-</p>
-
----
-
-### 🔗 Onde me encontrar
-
-[![Portfolio](https://img.shields.io/badge/Portf%C3%B3lio-3f7fbf?style=for-the-badge&logo=vercel&logoColor=white)](https://vinicius-santos-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-de-paula-santos-dev)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/generated/snake-light.svg">
+  <img src="assets/generated/snake-dark.svg" alt="Gráfico de contribuições do último ano" width="100%">
+</picture>

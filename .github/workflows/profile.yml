@@ -1,0 +1,44 @@
+name: Atualiza perfil
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # todo dia, 06:17 em São Paulo
+  push:
+    branches: [main]
+    paths-ignore: ["assets/generated/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gera status.svg
+        run: python3 scripts/generate_status.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+
+      - name: Gera snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/generated/snake-dark.svg?palette=github-dark&color_snake=#B07CFF&color_dots=#0B1A3A,#163A6E,#2563B0,#4DA3FF,#9CD0FF
+            assets/generated/snake-light.svg?palette=github&color_snake=#8804E5&color_dots=#EBEDF0,#C7DDFB,#8DBDFF,#4D8BE0,#2563B0
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated
+          git diff --staged --quiet || git commit -m "chore: atualiza status do perfil"
+          git push
