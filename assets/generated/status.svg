@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="340" viewBox="0 0 840 340" role="img" aria-labelledby="title desc">
+  <title id="title">Estatísticas do GitHub</title>
+  <desc id="desc">205 contribuições e 184 commits no último ano, 13 pull requests, 13 repositórios públicos, 4 estrelas. Linguagens: Java 52.4%, Python 21.9%, TypeScript 17.7%, JavaScript 7.9%.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050913"/><stop offset="1" stop-color="#0B1633"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4DA3FF"/><stop offset="1" stop-color="#B07CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#4DA3FF" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace}
+    .sans{font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif}
+    .label{font-size:12px;letter-spacing:2px;fill:#7FB8FF}
+    .value{font-size:17px;font-weight:700;fill:#EAF4FF}
+    .note{font-size:12px;font-weight:400;fill:#7F98BC}
+    .lang{font-size:14px;fill:#EAF4FF}
+    .pct{font-size:12px;fill:#9DB7DA}
+    .frame{animation:pulse 3.2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{stroke-opacity:.7}50%{stroke-opacity:1}}
+    @media (prefers-reduced-motion:reduce){.frame{animation:none}}
+  </style>
+
+  <rect x="10" y="10" width="820" height="320" rx="6" fill="url(#bg)"/>
+  <rect x="10" y="10" width="820" height="320" rx="6" fill="url(#grid)"/>
+  <rect class="frame" x="10" y="10" width="820" height="320" rx="6" fill="none" stroke="#4DA3FF" stroke-width="1.5" filter="url(#glow)"/>
+  <g fill="none" stroke="#9CD0FF" stroke-width="3" stroke-linecap="square">
+    <path d="M4 30V4H30"/><path d="M810 4H836V30"/><path d="M4 310V336H30"/><path d="M810 336H836V310"/>
+  </g>
+  <rect x="310" y="26" width="220" height="32" rx="3" fill="#0B1A3A" stroke="#4DA3FF" stroke-opacity=".6"/>
+  <text x="420" y="47" text-anchor="middle" class="mono" font-size="14" font-weight="700" letter-spacing="6" fill="#EAF4FF">ESTATÍSTICAS</text>
+
+  <text x="40" y="104" class="mono label">CONTRIBUIÇÕES</text>
+  <text x="200" y="104" class="sans value">205<tspan class="note" dx="8">último ano</tspan></text>
+  <text x="40" y="136" class="mono label">COMMITS</text>
+  <text x="200" y="136" class="sans value">184<tspan class="note" dx="8">último ano</tspan></text>
+  <text x="40" y="168" class="mono label">PULL REQUESTS</text>
+  <text x="200" y="168" class="sans value">13</text>
+  <text x="40" y="200" class="mono label">REPOSITÓRIOS</text>
+  <text x="200" y="200" class="sans value">13<tspan class="note" dx="8">públicos</tspan></text>
+  <text x="40" y="232" class="mono label">ESTRELAS</text>
+  <text x="200" y="232" class="sans value">4</text>
+  <text x="40" y="264" class="mono label">SEQUÊNCIA</text>
+  <text x="200" y="264" class="sans value">2 dias<tspan class="note" dx="8">recorde: 9</tspan></text>
+  <line x1="440" y1="84" x2="440" y2="290" stroke="#4DA3FF" stroke-opacity=".3"/>
+  <text x="470" y="104" class="mono label">LINGUAGENS</text>
+  <text x="470" y="138" class="sans lang">Java</text>
+  <text x="800" y="138" text-anchor="end" class="mono pct">52.4%</text>
+  <rect x="470" y="146" width="330" height="6" rx="3" fill="#13254A"/>
+  <rect x="470" y="146" width="173.0" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" from="0" to="173.0" begin="0s" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  <text x="470" y="172" class="sans lang">Python</text>
+  <text x="800" y="172" text-anchor="end" class="mono pct">21.9%</text>
+  <rect x="470" y="180" width="330" height="6" rx="3" fill="#13254A"/>
+  <rect x="470" y="180" width="72.4" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" from="0" to="72.4" begin="0.15s" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  <text x="470" y="206" class="sans lang">TypeScript</text>
+  <text x="800" y="206" text-anchor="end" class="mono pct">17.7%</text>
+  <rect x="470" y="214" width="330" height="6" rx="3" fill="#13254A"/>
+  <rect x="470" y="214" width="58.5" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" from="0" to="58.5" begin="0.3s" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+  <text x="470" y="240" class="sans lang">JavaScript</text>
+  <text x="800" y="240" text-anchor="end" class="mono pct">7.9%</text>
+  <rect x="470" y="248" width="330" height="6" rx="3" fill="#13254A"/>
+  <rect x="470" y="248" width="26.1" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" from="0" to="26.1" begin="0.45s" dur="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect>
+
+  <text x="420" y="314" text-anchor="middle" class="mono" font-size="11" fill="#5F7AA3">sincronizado em 22/11/2026 · GitHub Actions</text>
+</svg>
