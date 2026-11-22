@@ -13,7 +13,7 @@ Desenvolvedor backend em São Paulo. Java e Spring Boot nos meus projetos, C# e 
 
 <br>
 
-<img src="assets/player.svg" alt="Status: Vinícius de Paula Santos, nível 20, desenvolvedor backend, Jovem Aprendiz na XP Inc. (renda variável), São Paulo, ADS na São Judas até 2028. Habilidades: Java, Spring Boot, C#, .NET, PostgreSQL, MySQL, MongoDB, Docker, nginx, Coolify, Dynatrace, Grafana, Python. Em treinamento: React e TypeScript." width="100%">
+<img src="assets/player.svg" alt="Status: Vinícius de Paula Santos, nível 20, desenvolvedor backend, Jovem Aprendiz na XP Inc. (Growth PJ), São Paulo, ADS na São Judas até 2028. Habilidades: Java, Spring Boot, C#, .NET, PostgreSQL, MySQL, MongoDB, Docker, nginx, Coolify, Dynatrace, Grafana, Python. Em treinamento: React e TypeScript." width="100%">
 
 <a href="https://viniciusps.tech">
   <img src="assets/quests.svg" alt="Missões: Fluxen (em andamento), Telegram Assistant (em andamento), viniciusps.tech (concluída), ADS na São Judas (em andamento)." width="100%">
